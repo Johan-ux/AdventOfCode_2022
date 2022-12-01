@@ -1,0 +1,8 @@
+
+#folders
+/.idea
+/out
+
+#files
+AdventOfCode_2022.iml
+input.txt
