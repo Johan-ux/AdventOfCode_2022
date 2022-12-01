@@ -1,46 +1,16 @@
 package D1;
 
-import java.io.*;
 import java.util.*;
+
+import static common.PuzzleReader.readPuzzle;
 
 public class Day1 {
 
     public static void main(String[] args) {
 
-        List<String> data = readInput();
+        List<String> data = readPuzzle("src/D1/input.txt");
         assert data != null;
-
         solution(data);
-    }
-
-    static List<String> readInput() {
-
-        File input = new File("src/D1/input.txt");
-
-        if (input.exists()) {
-
-            try {
-                BufferedReader reader = new BufferedReader(new FileReader(input));
-
-                String read = reader.readLine();
-                List<String> list = new LinkedList<>();
-
-                while (read != null) {
-
-                    list.add(read);
-                    read = reader.readLine();
-                }
-
-                list.removeIf(Objects::isNull);
-                return list;
-
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-
-        } else System.out.println("File not found");
-
-        return null;
     }
 
     static void solution(List<String> data) {
@@ -60,16 +30,7 @@ public class Day1 {
         }
         caloriesElf.add(auxSum);
 
-        /* part 1
-        for (Integer integer : caloriesElf) {
-            maxCalories = Math.max(maxCalories, integer);
-        }
-        System.out.println("max calories: " + maxCalories);
-         */
-
-        //part2
         Collections.sort(caloriesElf);
-
         List<Integer> maxCalories = caloriesElf.subList(caloriesElf.size() - 3, caloriesElf.size());
 
         int totalCalories = 0;
