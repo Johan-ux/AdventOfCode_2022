@@ -12,10 +12,11 @@ public class Day3 {
         assert data != null;
 
         part1(data);
+        System.out.println("-----");
         part2(data);
     }
 
-    public static void part1(List<String> data) {
+    private static void part1(List<String> data) {
         HashMap<Character, Integer> priorityOrder = new HashMap<>();
 
         for (int i = 0; i < 26; i++) {
@@ -44,7 +45,7 @@ public class Day3 {
         System.out.println("Part 1: " + totalPriorities);
     }
 
-    public static void part2(List<String> data) {
+    private static void part2(List<String> data) {
 
         HashMap<Character, Integer> priorityOrder = new HashMap<>();
         int totalPriorities = 0;

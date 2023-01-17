@@ -13,7 +13,7 @@ public class Day1 {
         solution(data);
     }
 
-    static void solution(List<String> data) {
+    private static void solution(List<String> data) {
 
         ArrayList<Integer> caloriesElf = new ArrayList<>();
         int auxSum = 0;

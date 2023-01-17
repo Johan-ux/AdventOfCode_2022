@@ -12,10 +12,11 @@ public class Day2 {
         assert data != null;
 
         part1(data);
+        System.out.println("-----");
         part2(data);
     }
 
-    static void part1(List<String> data) {
+    private static void part1(List<String> data) {
         int score = 0;
 
         for (String s : data) {
@@ -48,7 +49,7 @@ public class Day2 {
         System.out.println("Score part 1: " + score);
     }
 
-    static void part2(List<String> data) {
+    private static void part2(List<String> data) {
 
         int rock = 1;
         int paper = 2;
@@ -90,7 +91,7 @@ public class Day2 {
         System.out.println("score part 2: " + score);
     }
 
-    static int calculePoints(String selection) {
+    private static int calculePoints(String selection) {
 
         int points = 0;
 

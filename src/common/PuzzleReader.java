@@ -8,13 +8,13 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
-public class PuzzleReader {
+public interface PuzzleReader {
 
     /**
      * @param path the path where the file is located
      * @return a List with the puzzle
      */
-    public static List<String> readPuzzle(String path) {
+    static List<String> readPuzzle(String path) {
 
         File input = new File(path);
 

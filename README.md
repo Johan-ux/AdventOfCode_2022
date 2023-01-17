@@ -8,11 +8,11 @@
  - [Day 1](src/D1/Day1.java) :star: :star:
  - [Day 2](src/D2/Day2.java) :star: :star:
  - [Day 3](src/D3/Day3.java) :star: :star:
- - [Day 4](src/D4/Day4.java)
- - [Day 5](src/D4/Day4.java)
- - [Day 6](src/D6/Day6.java)
+ - [Day 4](src/D4/Day4.java) :star: :star:
+ - [Day 5](src/D4/Day4.java) :star: :star:
+ - [Day 6](src/D6/Day6.java) :star: :star:
  - [Day 7](src/D7/Day7.java)
- - [Day 8](src/D8/Day8.java)
+ - [Day 8](src/D8/Day8.java) :star: :star:
  - [Day 9](src/D9/Day9.java)
  - [Day 10](src/D10/Day10.java)
  - [Day 11](src/D11/Day11.java)
