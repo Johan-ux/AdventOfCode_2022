@@ -9,7 +9,7 @@
  - [Day 2](src/D2/Day2.java) :star: :star:
  - [Day 3](src/D3/Day3.java) :star: :star:
  - [Day 4](src/D4/Day4.java) :star: :star:
- - [Day 5](src/D4/Day4.java) :star: :star:
+ - [Day 5](src/D5/Day5.java) :star: :star:
  - [Day 6](src/D6/Day6.java) :star: :star:
  - [Day 7](src/D7/Day7.java)
  - [Day 8](src/D8/Day8.java) :star: :star:
